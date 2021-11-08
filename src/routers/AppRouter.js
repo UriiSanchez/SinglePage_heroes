@@ -11,7 +11,8 @@ const AppRouter = (props) => {
     return ( <Router>
         <div>
             <Switch>
-                <PublicRoute exact={true} isAuthenticated={logged} path="/login" component={LoginScreen}/>
+                <PublicRoute exact={true} isAuthenticated={logged} path="/login"
+                 component={LoginScreen}/>
                 <PrivateRoute isAuthenticated={logged} path="/" component={DashboardRoutes}/>
             </Switch>
         </div>

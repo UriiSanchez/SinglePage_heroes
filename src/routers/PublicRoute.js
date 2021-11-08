@@ -24,4 +24,4 @@ PublicRoute.propTypes = {
     component: PropTypes.func.isRequired
 }
 
-export default PublicRoute
+export default PublicRoute;
