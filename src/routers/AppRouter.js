@@ -15,6 +15,7 @@ const AppRouter = (props) => {
                  component={LoginScreen}/>
                 <PrivateRoute isAuthenticated={logged} path="/" component={DashboardRoutes}/>
             </Switch>
+            {/* Pequeños cambios de prueba */}
         </div>
     </Router> );
 }
